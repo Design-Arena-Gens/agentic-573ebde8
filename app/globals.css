@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Better focus outline */
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59,130,246,0.6);
+}
